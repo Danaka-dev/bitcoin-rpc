@@ -24,12 +24,12 @@ set( CMAKE_MODULE_PATH
         # menu -> File -> Settings -> Build,Execution,Deployment -> Cmake .. "CMake options:" textbox in the right pane
         # e.g. <vcpkg-root> will probably be "/home/<username>/.vcpkg-clion/" on Linux
     # replace "JSONCPP" to lower case "jsoncpp" herebelow :
-        # FIND_PACKAGE(jsoncpp REQUIRED)
 
+# FIND_PACKAGE(jsoncpp REQUIRED)
 FIND_PACKAGE(JSONCPP REQUIRED)
 FIND_PACKAGE(CURL REQUIRED)
 
-message( STATUS " JSONCPP : " ${JSONCPP_LIBRARIES} )
+message( STATUS " JSONCPP : " ${JSONCPP_LIBRARY} )
 message( STATUS " CURL : " ${CURL_LIBRARY} )
 
 # Find header and source files

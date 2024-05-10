@@ -72,7 +72,7 @@ The full list of available API calls can be found [here](https://en.bitcoin.it/w
 License
 -------
 
-The bitcoin-api-cpp library is released under the terms of [MIT](http://en.wikipedia.org/wiki/MIT_License).
+The bitcoin-rpc library is released under the terms of [MIT](http://en.wikipedia.org/wiki/MIT_License).
 
 ```
 Copyright (c) 2014 Krzysztof Okupski
